@@ -8,7 +8,7 @@ import '@aws-amplify/ui-react/styles.css'; 
 
 Amplify.configure(config) 
 
-function App() {
+function App({signOut}) {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,14 +16,13 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <button
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick="signOut"
+         
         >
-          Learn React
-        </a>
+          Deslogar
+        </button>
       </header>
     </div>
   );

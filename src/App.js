@@ -16,13 +16,7 @@ function App({signOut}) {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button
-          className="App-link"
-          onClick="signOut"
-         
-        >
-          Deslogar
-        </button>
+        <button onClick={signOut}>Sign out</button>
       </header>
     </div>
   );

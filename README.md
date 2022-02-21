@@ -19,7 +19,8 @@
 4 - Vamos configurar o acesso ao Amplify existente do projeto na AWS:
   Execute o comando - amplify init no terminal 
   Siga os passos escolhendo os paramtros conforme a imagem abaixo:
-  'imagem'
+  ![](img/configuracao.png)
+
   OBs - o accessKeyId e secretAccessKey estão no txt enviado pelo portal fiap ao professor. 
 
 
@@ -29,8 +30,9 @@
 ```
 
 6 - Subir a aplicação local:
+```bash
     npm start
-
+```
    
 
 

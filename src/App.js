@@ -14,7 +14,17 @@ function App({signOut}) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+           Trabalho final de Cloud Architecture e DevOps MBA.
+        </p>
+        <p>
+        <p>  
+          Integrantes:
+        </p>
+        <p>
+          Raul M Ferreira - RM 341282 / 
+          Julio Henrique Bitencourt  - RM 340931 / 
+          Marcos Vinicius Amaral Apóstolo - RM 341155 
+        </p>
         </p>
         <button onClick={signOut}>Sign out</button>
       </header>

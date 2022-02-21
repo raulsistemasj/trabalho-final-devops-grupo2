@@ -4,29 +4,34 @@
 > - Git instalado
 > - Npm instalado
 
-1 - Instalar o CLI do amplify:
-
+1 - Fazer o clone da aplicação do repositório GIT:
 ```bash
-npm install -g @aws-amplify/cli
+    git clone https://github.com/raulsistemasj/trabalho-final-devops-grupo2.git 
+```
+2 - Entrar na pasta do projeto pelo terminal:
+```bash
+    cd trabalho-final-devops-grupo2
+```
+3 - Instalar o CLI do amplify:
+```bash
+    npm install -g @aws-amplify/cli
+```
+4 - Vamos configurar o acesso ao Amplify existente do projeto na AWS:
+  Execute o comando - amplify init no terminal 
+  Siga os passos escolhendo os paramtros conforme a imagem abaixo:
+  'imagem'
+  OBs - o accessKeyId e secretAccessKey estão no txt enviado pelo portal fiap ao professor. 
+
+
+5 - Baixar as dependências  projeto:
+```bash
+    npm install
 ```
 
-2 - Fazer o clone da aplicação:
+6 - Subir a aplicação local:
+    npm start
 
-```bash
-git clone https://github.com/raulsistemasj/trabalho-final-devops-grupo2.git && cd trabalho-final-devops-grupo2
-```
-
-3 - Baixar as dependências do projeto:
-
-```bash
-npm install
-```
-
-4 - Fazer as mudanças desejadas no projeto. Para executar e se certificar de que está funcionando:
-
-```bash
-npm start
-```
+   
 
 
 

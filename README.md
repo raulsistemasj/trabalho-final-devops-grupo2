@@ -4,9 +4,10 @@
 > - Git instalado
 > - Npm instalado
 
-1 - Fazer o clone da aplicação do repositório GIT:
+1 - Fazer o clone da aplicação do repositório GIT SSH ou HTTPS:
 ```bash
-    https://github.com/raulsistemasj/trabalho-final-devops-grupo2/tree/master
+   git clone git@github.com:raulsistemasj/trabalho-final-devops-grupo2.git
+   git clone https://github.com/raulsistemasj/trabalho-final-devops-grupo2.git
 ```
 2 - Apos efetuar o clone na maquina entre na pasta do projeto pelo terminal:
 ```bash
@@ -19,7 +20,7 @@
 4 - Vamos configurar o acesso ao Amplify existente do projeto na AWS:
   Execute o comando - amplify init no terminal 
   Siga os passos escolhendo os paramtros conforme a imagem abaixo:
-  
+
   ![](img/configuracao.png)
 
   OBs - o accessKeyId e secretAccessKey estão no txt enviado pelo portal fiap ao professor. 
